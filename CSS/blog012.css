@@ -1,0 +1,137 @@
+/* blog section */
+
+.blog{
+    background-color: #f8f8f8;
+}
+
+.blog-item{
+    float: left;
+    width: 30%;
+    background-color: #fff; 
+}
+
+
+.blog-item-img img{
+    width: 100%;
+}
+
+.blog-list{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.blog-list li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.blog-info{
+    padding: 20px ;
+}
+
+.blog-list li i{
+    color: #6195ff;
+    padding: 6px;
+}
+
+.blog-tittle{
+    font-weight: bold;
+    margin: 20px 0 ;
+}
+
+.blog-desc{
+    color: #999;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.blog-link{
+    color: #6195ff;
+}
+
+.blog-item.mg{
+    margin: 0px 5%;
+}
+
+/* contact section */
+
+.contact-item{
+    float: left;
+    width: 30%;
+    margin-bottom: 100px;
+
+}
+
+.contact-item-content{
+    text-align: center;
+}
+.contact-item-content i {
+    color: #6195ff;
+    margin-bottom: 8px;
+}
+
+.contact-item .contact-item-content-h{margin-bottom: 18px; }
+
+.contact-item span{
+    color: #999;
+}
+
+.contact-content .input-top {
+    text-align: center;
+}
+
+.contact-content .input-top input{
+    width: 35%;
+    height: 40px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(246, 248, 248);
+    text-transform: capitalize;
+}
+
+.contact-content .input-bottom1{
+    text-align: center;
+}
+
+.contact-content .input-bottom1 input{
+    width: 70.5%;
+    height: 40px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(246, 248, 248);
+    text-transform: capitalize;
+}
+
+.contact-content .input-bottom2{
+    text-align: center;
+}
+
+.contact-content .input-bottom2 textarea{
+    width: 70.5%;
+    height: 80px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(246, 248, 248);
+    text-transform: capitalize;
+}
+
+.contact-content button{
+    /* display: inline-block; */
+    width: 200px;
+    height: 65px;
+    margin: auto;
+    border: 0;
+    border-radius: 5px;
+    background-color: #6195ff;
+    color: #ffffffff;
+    font-size: medium;
+
+}
+
+.contact-content .btn-div{
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,80 @@
+html{
+    text-transform: capitalize;
+}
+/* main */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+.pd-y{
+    padding: 120px 0;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+button{
+    font-family: inherit;
+    text-transform: capitalize;
+}
+
+.hover-opacity{
+    transition:opacity 1s ;
+}
+.hover-opacity:hover{
+    opacity:0.6 ;
+}
+
+
+h1 , h2, h3,h4{
+    font-family:montsrrat,sans-serif;
+}
+
+/* ltr-effect */
+
+
+.ltr-effect{
+    position: relative;
+}
+.ltr-effect:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: width 0.5s;
+    background: rgb(73, 73, 73);
+    z-index: -1;
+}
+
+.ltr-effect:hover::after{
+    width: 100%;
+}
+
+
+/* التغيير في لون الخط لابيض  */
+.about-item:hover .about-item-tittle{
+    color: #ffff;
+}
+
+/* font */
+body{
+    font-family: 'Varela Round', sans-serif;
+}

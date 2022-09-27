@@ -1,0 +1,47 @@
+/* nav barrrrrrrrrrrrrrrrrrrrr */
+
+.header{
+    background-color: rgba(0, 0, 0,0.3);
+    /* height: 92px; */
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+/* container */
+.container{
+    width: 80%;
+    /* height: 20%; */
+    /* background-color: blue; */
+    margin: auto;
+}
+
+/* logo $ navbar */ 
+
+.header .logo{
+    width: 20%;
+    margin-top: 11px;
+    float: left;
+    /* background-color: aquamarine; */
+}
+
+.header .navbar{
+    width: 80%;
+    float: left;
+    text-align: right;
+
+    /* background-color: aqua; */
+}
+
+.header .navbar>li{
+    display: inline-block;
+    text-align: right;
+}
+
+.header .navbar>li>a{
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 35px 15px;
+    /* background-color: aqua; */
+    color: aliceblue;
+}

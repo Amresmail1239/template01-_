@@ -1,0 +1,171 @@
+/* homeeeeeeeeeeeee */
+.home{
+    height: 100vh;
+    background-image: url(../images/images/background/background1.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.home-content{
+    /* background-color: aqua; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 65%;
+}
+
+.home .title{
+    font-size: 3.2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.home-desc{
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    padding: 18px 0px;
+    color: white;
+    /* line-height: 1px; */
+}
+
+.home .btn{
+    min-width: 150px;
+    padding: 15px 0px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.home .btn-start{
+    margin-right: 10px;
+    background-color: white;
+}
+
+.home .btn-learn{
+    background-color: #6195ff;
+    color: #ffffffff;
+}
+
+
+/* حركه ملئ الخط من صفر ل 100 في الميه */
+/* .header .navbar li a.active :after,
+.header .navbar li a:after{
+    content: "" ;
+    display: block;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.5s ;
+    margin-top: 2px;
+
+}
+
+.header .navbar li a.active::after{width: 100%;
+}
+
+.header .navbar li a::after{
+    width: 0%;
+}
+
+.header .navbar li a:hover::after{width: 100%;
+} */
+
+
+
+
+/* .header .navbar li a:after{
+    content: "";
+    width: 0%;
+    background-color: #6195ff;
+    display: block;
+    height: 3px;
+    transition: width 0.5s ; 
+    margin-top: 2px;
+}
+
+.header .navbar li a.active:after{
+    
+    width: 100%;
+    
+}
+.header .navbar li a:hover:after{
+    width: 100%;
+} */
+
+
+
+
+/* .header .navbar li a:after{
+    content: "";
+    display: block;
+    width: 0%;
+    background-color: #6195ff;
+    transition: width 0.7s;
+    height: 3px;
+    margin-top: 2px;
+}
+
+
+.header .navbar li a.active:after{
+    width: 100%;
+}
+
+.header .navbar li a:hover:after{
+    width: 100%;
+}
+
+ */
+
+.header .navbar>li>a:after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: #5179c9;
+    transition: width 0.6s ;
+    margin-top: 2px;
+}
+
+.header .navbar>li>a.active::after{
+    width: 100%;
+}
+.header .navbar>li>a:hover:after{
+    width: 100%;
+}
+
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    color: #ffff;
+    background-color: #6195ff;
+    left: -50%;
+    top: 90%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.dropdown-menu a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
